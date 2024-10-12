@@ -238,9 +238,10 @@ To optimize crop management and prioritize treatment areas, integrating crop hea
         * This shows the farmer precisely which parts of the image were used to identify a weed.
 
 * Saliency Maps:
-    * Saliency maps highlight pixels that the model considers important for making predictions. For a given input image:
-    * Generate a grayscale saliency map where the intensity of each pixel indicates its influence on the model’s decision.
-    * This helps explain why the model identified a particular region as containing weeds or stressed crops.
+    * Saliency maps highlight pixels that the model considers important for making predictions. 
+    * For a given input image:
+        * Generate a grayscale saliency map where the intensity of each pixel indicates its influence on the model’s decision.
+        * This helps explain why the model identified a particular region as containing weeds or stressed crops.
 
 * Bounding Box and Label Overlay:
     * Show the weed detection results by drawing bounding boxes around detected weeds and labeling them with the weed species or classification confidence.
@@ -260,4 +261,4 @@ To optimize crop management and prioritize treatment areas, integrating crop hea
     * In cases where deeper understanding is required, you can visualize intermediate layers of the neural network to show how the model extracts features at different levels of abstraction. This would be more relevant for technical users like agronomists.
 
 * Video Playback with Annotations:
-    * For drone footage, provide real-time video playback where the model’s decisions are shown frame by frame with bounding boxes a
+    * For drone footage, provide real-time video playback where the model’s decisions are shown frame by frame with bounding boxes.

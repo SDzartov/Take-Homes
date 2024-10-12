@@ -160,3 +160,4 @@ cython_debug/
 #.idea/
 /runs
 drone_weeds_04102024/yolo11n.pt
+drone_weeds_04102024/images/.DS_Store
